@@ -1,0 +1,687 @@
+--Résultats des requêtesSQL
+
+--1. Nombre total d’appartements vendus au 1er semestre 2020.
+
+NB_APPARTEMENTS_VENDUS
+----------------------
+                 31378
+
+
+=======================================================================================
+--2. Proportion des ventes d’appartements par le nombre de pièces.
+
+NB_PIECES_PRINC PROPORTION
+--------------- ----------
+              0   0.100000
+              1  19.900000
+              2  29.410000
+              3  28.000000
+              4  16.200000
+              5   4.890000
+              6   1.080000
+              7   0.290000
+              8   0.080000
+              9   0.040000
+             10   0.010000
+             11   0.000000
+
+
+=======================================================================================
+--3.Liste des 10 départements où le prix du mètre carré est le plus élevé.
+
+CODE_DEP AVG_PRIX         
+-------- -----------------
+75       12052.89000000000
+92        7219.39000000000
+94        5343.28000000000
+6         4700.33000000000
+74        4667.13000000000
+93        4344.78000000000
+78        4225.25000000000
+69        4059.31000000000
+2A        4026.97000000000
+33        3764.14000000000
+
+
+=======================================================================================
+--4. Prix moyen du mètre carré d’une maison en Île-de-France.
+
+AVG_PRIX_MAISON_IDF
+-------------------
+   3745.01000000000
+
+
+=======================================================================================
+--5. Liste des 10 appartements les plus chers avec le département et le
+--nombre de mètres carrés.
+
+CODE_DEP SURF_CARREZ_1ER_LOT VALEUR_FONCIERE
+-------- ------------------- ---------------
+75                      9.10      9000000.00
+91                     64.00      8600000.00
+75                     20.55      8577713.00
+75                     42.77      7620000.00
+75                    253.30      7600000.00
+75                    139.90      7535000.00
+75                    360.95      7420000.00
+75                    595.00      7200000.00
+75                    122.56      7050000.00
+75                     79.38      6600000.00
+
+
+=======================================================================================
+--6. Taux d’évolution du nombre de ventes entre le premier et le second
+--trimestre de 2020.
+
+EVOLUTION_NB_VENTES
+-------------------
+           3.680000
+
+
+=======================================================================================
+--7. Liste des communes où le nombre de ventes a augmenté d'au
+--moins 20% entre le premier et le second trimestre de 2020
+
+COMMUNE                    TAUX       
+-------------------------- -----------
+LEUCATE                      20.690000
+ETAMPES                      20.830000
+LE CHESNAY-ROCQUENCOURT      21.430000
+BOISSY-SAINT-LEGER           22.220000
+ORLY                         22.220000
+PARIS 08                     24.190000
+RENNES                       24.590000
+BATZ-SUR-MER                 25.000000
+BONNEVILLE                   25.000000
+CADAUJAC                     25.000000
+CHAMONIX MONT BLANC          25.000000
+L'ILE-SAINT-DENIS            25.000000
+LONGPONT-SUR-ORGE            25.000000
+MERY-SUR-OISE                25.000000
+NOGENT SUR OISE              25.000000
+PONTOISE                     25.000000
+SAINT-GENIS-LAVAL            25.000000
+SOUSTONS                     25.000000
+VAL DE BRIEY                 25.000000
+VALENCE                      25.000000
+PARIS 11                     26.630000
+SARCELLES                    26.670000
+VILLEMOMBLE                  26.670000
+NICE                         27.170000
+LAON                         27.270000
+MENTON                       27.500000
+BRON                         28.570000
+DAMMARTIN-EN-GOELE           28.570000
+JOINVILLE-LE-PONT            28.570000
+LIMEIL-BREVANNES             28.570000
+VERNOUILLET                  28.570000
+MAISONS-ALFORT               29.550000
+LYON 2EME                    30.000000
+MONTMAGNY                    30.000000
+PARIS 19                     30.170000
+CORBEIL ESSONNES             30.430000
+PARIS 12                     30.910000
+HERBLAY-SUR-SEINE            31.250000
+SAINT-MALO                   32.260000
+PARIS 01                     32.350000
+ANDRESY                      33.330000
+ARDON                        33.330000
+AULT                         33.330000
+AUTUN                        33.330000
+BERCK                        33.330000
+CASTELGINEST                 33.330000
+CAYEUX-SUR-MER               33.330000
+CRAPONNE                     33.330000
+EMERAINVILLE                 33.330000
+ETANG-LA-VILLE (L )          33.330000
+FORT DE FRANCE               33.330000
+FRANCHEVILLE                 33.330000
+LA MULATIERE                 33.330000
+LA ROCHELLE                  33.330000
+LE LAMENTIN                  33.330000
+LIMAY                        33.330000
+LONGJUMEAU                   33.330000
+MANDRES-LES-ROSES            33.330000
+MAREIL-MARLY                 33.330000
+MAUGUIO                      33.330000
+MERS-LES-BAINS               33.330000
+NANDY                        33.330000
+NIMES                        33.330000
+NOISY LE ROI                 33.330000
+PERSAN                       33.330000
+PRINGY                       33.330000
+SAINT THIBAULT DES VIGNES    33.330000
+SAINT-ETIENNE-DU-ROUVRAY     33.330000
+SASSENAGE                    33.330000
+TROIS ILETS                  33.330000
+VALS-LES-BAINS               33.330000
+VILLIERS-SUR-MARNE           33.330000
+LYON 1ER                     35.290000
+TASSIN-LA-DEMI-LUNE          35.710000
+EAUBONNE                     36.360000
+LE PERREUX-SUR-MARNE         36.360000
+VITRY-SUR-SEINE              36.670000
+NOGENT-SUR-MARNE             37.140000
+GENTILLY                     37.500000
+LOGNES                       37.500000
+ROCHE SUR YON (LA)           37.500000
+VANDOEUVRE LES NANCY         37.500000
+SAINT-MANDE                  37.930000
+BOURGES                      38.100000
+LYON 9EME                    38.460000
+PARIS 20                     38.580000
+PARIS 16                     38.790000
+BREST                        39.290000
+CHOLET                       40.000000
+LA FARLEDE                   40.000000
+LA TURBALLE                  40.000000
+LECCI                        40.000000
+LINAS                        40.000000
+MEGEVE                       40.000000
+NOISIEL                      40.000000
+SAINT-GILLES-CROIX-DE-VIE    40.000000
+ST SEBASTIEN SUR LOIRE       40.000000
+TOULOUSE                     41.030000
+POISSY                       41.180000
+LA SEYNE SUR MER             41.670000
+LE PLESSIS-TREVISE           41.670000
+PARIS 10                     42.200000
+LESIGNY                      42.860000
+MONTESSON                    42.860000
+MONTMORENCY                  42.860000
+SAINTE-GENEVIEVE-DES-BOIS    42.860000
+SAUMUR                       42.860000
+TRANCHE-SUR-MER (LA)         42.860000
+LILLE                        43.280000
+SAINT-DENIS                  44.120000
+FONTENAY-SOUS-BOIS           44.440000
+BRY-SUR-MARNE                45.450000
+CARCASSONNE                  45.450000
+CHARTRES                     45.450000
+PECQ (LE)                    45.450000
+SAINT-MICHEL-SUR-ORGE        46.150000
+MEAUX                        46.880000
+PARIS 18                     46.890000
+TOURS                        47.060000
+CLICHY                       47.730000
+AUBERVILLIERS                48.000000
+LEVALLOIS-PERRET             49.150000
+ANNECY                       50.000000
+AUCAMVILLE                   50.000000
+BOUGUENAIS                   50.000000
+BRETIGNOLLES-SUR-MER         50.000000
+BRUGES                       50.000000
+BRUNOY                       50.000000
+CHAMBERY                     50.000000
+CHANTELOUP EN BRIE           50.000000
+CHANTILLY                    50.000000
+CHANTRAINE                   50.000000
+CHEVREUSE                    50.000000
+CLAYE-SOUILLY                50.000000
+CREON                        50.000000
+DARDILLY                     50.000000
+EGLY                         50.000000
+FROGES                       50.000000
+GUERET                       50.000000
+GUIDEL                       50.000000
+GUJAN MESTRAS                50.000000
+HAUBOURDIN                   50.000000
+JARGEAU                      50.000000
+LANDIVISIAU                  50.000000
+LE PASSAGE                   50.000000
+LES ALLUES                   50.000000
+LOUVECIENNES                 50.000000
+MARCQ EN BAROEUL             50.000000
+MARGNY LES COMPIEGNE         50.000000
+MARSEILLAN                   50.000000
+MERIEL                       50.000000
+MEZIERES-SUR-SEINE           50.000000
+MIMIZAN                      50.000000
+MORTEAU                      50.000000
+PAIMPOL                      50.000000
+PALAVAS-LES-FLOTS            50.000000
+PERPIGNAN                    50.000000
+PHALEMPIN                    50.000000
+PORT-LOUIS                   50.000000
+PUSSAY                       50.000000
+QUINCIEUX                    50.000000
+RIVES-EN-SEINE               50.000000
+SABLE SUR SARTHE             50.000000
+SAINT DENIS                  50.000000
+SAINT-NAZAIRE                50.000000
+SAINT-PRIX                   50.000000
+SATHONAY-CAMP                50.000000
+SAVIGNY-LE-TEMPLE            50.000000
+SEDAN                        50.000000
+TULLINS                      50.000000
+VAISON-LA-ROMAINE            50.000000
+ZONZA                        50.000000
+NANTES                       51.260000
+ROSNY-SOUS-BOIS              52.380000
+ELANCOURT                    53.330000
+CHILLY MAZARIN               54.550000
+QUIBERON                     55.560000
+LE GRAU DU ROI               56.760000
+LYON 5EME                    58.330000
+HYERES                       59.090000
+CARQUEFOU                    60.000000
+CERGY                        60.000000
+GRIGNY                       60.000000
+LE TEICH                     60.000000
+YVETOT                       60.000000
+NEUILLY-SUR-SEINE            61.700000
+COMPIEGNE                    61.900000
+L'HAY-LES-ROSES              62.500000
+EPINAL                       64.710000
+BRIVE LA GAILLARDE           66.670000
+CHARTRES-DE-BRETAGNE         66.670000
+DINARD                       66.670000
+LANESTER                     66.670000
+LE CROISIC                   66.670000
+LE MANS                      66.670000
+LE VERDON SUR MER            66.670000
+ORGEVAL                      66.670000
+PONTAULT COMBAULT            66.670000
+PONTIVY                      66.670000
+SAINT-BRICE-SOUS-FORET       66.670000
+SAINT-PAUL                   66.670000
+VAULX EN VELIN               66.670000
+VILLERS-COTTERETS            66.670000
+VILLIERS-LE-BEL              66.670000
+SAINT-ETIENNE                67.390000
+CHALONS EN CHAMPAGNE         68.180000
+FRANCONVILLE LA GARENNE      68.180000
+ARGENTEUIL                   68.970000
+LE HAVRE                     69.050000
+BORMES-LES-MIMOSAS           69.230000
+VILLEFRANCHE                 70.370000
+LES ULIS                     71.430000
+LIEUSAINT                    71.430000
+ROANNE                       71.430000
+BRIE COMTE ROBERT            72.730000
+ROMANS-SUR-ISERE             72.730000
+RAMBOUILLET                  73.330000
+TROYES                       73.530000
+FRESNES                      73.910000
+CLERMONT L HERAULT           75.000000
+ESSARTS-LE-ROI (LES)         75.000000
+MONTLHERY                    75.000000
+SAINT-EGREVE                 75.000000
+SANNOIS                      75.000000
+TARARE                       75.000000
+AUXERRE                      77.780000
+BEAUMONT-SUR-OISE            77.780000
+LAVAL                        77.780000
+ST GRATIEN                   77.780000
+EYSINES                      80.000000
+LA CHAPELLE ST LUC           80.000000
+PERROS-GUIREC                80.000000
+VALRAS-PLAGE                 80.000000
+TOURCOING                    81.820000
+AIGUES-MORTES                83.330000
+CALUIRE ET CUIRE             83.330000
+COMBS LA VILLE               83.330000
+DEUIL LA BARRE               83.330000
+SAINT MAX                    83.330000
+SAINT-PRIEST                 83.330000
+BEAUVAIS                     84.620000
+LA BAULE-ESCOUBLAC           85.190000
+GAGNY                        85.710000
+NOISY-LE-GRAND               85.710000
+UZES                         85.710000
+CHERBOURG-EN-COTENTIN        88.890000
+MANTES-LA-JOLIE              90.000000
+EVREUX                       90.910000
+ST-HERBLAIN                  90.910000
+MELUN                        95.000000
+ALENCON                     100.000000
+AMPUIS                      100.000000
+ANCENIS-SAINT-GEREON        100.000000
+ANGLET                      100.000000
+ANNEMASSE                   100.000000
+ARNAS                       100.000000
+AYTRE                       100.000000
+BALLAN MIRE                 100.000000
+BARRE-DE-MONTS (LA)         100.000000
+BARSAC                      100.000000
+BEAUPREAU-EN-MAUGES         100.000000
+BEDOIN                      100.000000
+BEUIL                       100.000000
+BLAIN                       100.000000
+BLANQUEFORT                 100.000000
+BLAYE                       100.000000
+BLOIS                       100.000000
+BOISSY-L'AILLERIE           100.000000
+BONNEUIL-EN-FRANCE          100.000000
+CANEJAN                     100.000000
+CARPENTRAS                  100.000000
+CASTRIES                    100.000000
+CAUTERETS                   100.000000
+CHAMBRAY LES TOURS          100.000000
+CHAMPAGNOLE                 100.000000
+CHAMPCUEIL                  100.000000
+CHANTONNAY                  100.000000
+CHARBONNIERES-LES-BAINS     100.000000
+CHARLEVILLE-MEZIERES        100.000000
+CHASSIEU                    100.000000
+CHATEAU-ARNOUX-SAINT-AUBAN  100.000000
+CLAIX                       100.000000
+CLARENSAC                   100.000000
+CORBAS                      100.000000
+CORBREUSE                   100.000000
+COUBERT                     100.000000
+CRECY LA CHAPELLE           100.000000
+CREPY EN VALOIS             100.000000
+DOL DE BRETAGNE             100.000000
+DOMENE                      100.000000
+DOUBS                       100.000000
+EMBRUN                      100.000000
+ENNERY                      100.000000
+EPERNON                     100.000000
+ESPALY-SAINT-MARCEL         100.000000
+FAVERGES-SEYTHENEX          100.000000
+FENOUILLET                  100.000000
+GALLARDON                   100.000000
+GILETTE                     100.000000
+GOURNAY-EN-BRAY             100.000000
+GRETZ-ARMAINVILLIERS        100.000000
+GUICHEN                     100.000000
+GUIGNES                     100.000000
+GUIGNEVILLE                 100.000000
+GUINGAMP                    100.000000
+LA BERNERIE EN RETZ         100.000000
+LA BUISSE                   100.000000
+LA FERTE BERNARD            100.000000
+LA FERTE SOUS JOUARRE       100.000000
+LACROIX FALGARDE            100.000000
+LE PONTET                   100.000000
+LE PUY EN VELAY             100.000000
+LEOGNAN                     100.000000
+LEON                        100.000000
+LES GETS                    100.000000
+LESPARRE-MEDOC              100.000000
+LIANCOURT                   100.000000
+LILLEBONNE                  100.000000
+LISSES                      100.000000
+MARCILLY-D AZERGUES         100.000000
+MARCY-L ETOILE              100.000000
+MARIN                       100.000000
+MARMANDE                    100.000000
+MARSILLARGUES               100.000000
+MARTIGNAS SUR JALLE         100.000000
+MATOURY                     100.000000
+MAYENNE                     100.000000
+MESNIL-ESNARD (LE)          100.000000
+MILHAUD                     100.000000
+MINIAC-MORVAN               100.000000
+MITRY MORY                  100.000000
+MOISSY-CRAMAYEL             100.000000
+MONFLANQUIN                 100.000000
+MONNETIER-MORNEX            100.000000
+MONT SAINT MARTIN           100.000000
+MONTATAIRE                  100.000000
+MONTIGNY EN GOHELLE         100.000000
+MORDELLES                   100.000000
+NANCY                       100.000000
+NANTEUIL LE HAUDOUIN        100.000000
+NEUFCHATEAU                 100.000000
+PAILLET                     100.000000
+PAIMBOEUF                   100.000000
+PARAY LE MONIAL             100.000000
+PARTHENAY                   100.000000
+PELUSSIN                    100.000000
+PITHIVIERS                  100.000000
+PLESSIS-BOUCHARD (LE)       100.000000
+POUSSAN                     100.000000
+RISOUL                      100.000000
+ROCHEFORT                   100.000000
+ROUBAIX                     100.000000
+ROUFFIAC TOLOSAN            100.000000
+RUPT-SUR-MOSELLE            100.000000
+SAIN-BEL                    100.000000
+SAINT MEDARD EN JALLES      100.000000
+SAINT-ANDRE-DES-EAUX        100.000000
+SAINT-MARTIN-DE-BROMES      100.000000
+SAINT-MEMMIE                100.000000
+SAINT-NOM-LA-BRETECHE       100.000000
+SAINT-PATHUS                100.000000
+SAINT-PAUL-TROIS-CHATEAUX   100.000000
+SAINT-PHILIBERT             100.000000
+SAINT-PIERRE-DES-CORPS      100.000000
+SAINT-PRYVE-SAINT-MESMIN    100.000000
+SAINTE PAZANNE              100.000000
+SAMOIS SUR SEINE            100.000000
+SARAN                       100.000000
+SAULX-LES-CHARTREUX         100.000000
+SECLIN                      100.000000
+THYEZ                       100.000000
+TOURNEFEUILLE               100.000000
+TRESSES                     100.000000
+VAL-D ISERE                 100.000000
+VALBONNE                    100.000000
+VAUX-LE-PENIL               100.000000
+VERRIERES-EN-ANJOU          100.000000
+VIAS                        100.000000
+VILLETANEUSE                100.000000
+VINAY                       100.000000
+VINEUIL ST FIRMIN           100.000000
+AGDE                        104.550000
+REZE                        108.330000
+TOULON                      108.470000
+CHAMPIGNY-SUR-MARNE         108.700000
+MAUREPAS                    109.090000
+ARPAJON                     122.220000
+CHENNEVIERES SUR MARNE      122.220000
+ARMENTIERES                 125.000000
+BEZONS                      125.000000
+DRAGUIGNAN                  125.000000
+FONTAINE                    125.000000
+LE BOURGET                  125.000000
+SAINTE MAXIME               125.000000
+VENISSIEUX                  125.000000
+DAMMARIE LES LYS            128.570000
+GOUSSAINVILLE               133.330000
+HENNEBONT                   133.330000
+MANIGOD                     133.330000
+THIAIS                      133.330000
+VOIRON                      133.330000
+NARBONNE                    136.000000
+ARCUEIL                     137.500000
+SAINT-BRIEUC                138.890000
+LIBOURNE                    140.000000
+VILLEURBANNE                144.830000
+BARCELONNETTE               150.000000
+BASSENS                     150.000000
+CHATEAUNEUF S LOIRE         150.000000
+CONDRIEU                    150.000000
+COUZON-AU-MONT-D OR         150.000000
+LARMOR-PLAGE                150.000000
+LE TOUQUET PARIS PLAGE      150.000000
+MAGNY-LES-HAMEAUX           150.000000
+PONTARLIER                  150.000000
+QUIMPERLE                   150.000000
+SAINT BREVIN LES PINS       150.000000
+SAINT DIE DES VOSGES        150.000000
+SAINT-LARY-SOULAN           150.000000
+SAINTE-LUCE-SUR-LOIRE       150.000000
+VILLARD-BONNOT              150.000000
+CHELLES                     153.330000
+AVIGNON                     155.560000
+ABLON-SUR-SEINE             160.000000
+LE BOUSCAT                  160.000000
+HOUILLES                    162.500000
+LA GRANDE MOTTE             166.670000
+MONTARGIS                   166.670000
+PETIT QUEVILLY (LE)         166.670000
+TINQUEUX                    166.670000
+CHAMROUSSE                  175.000000
+MONT-SAINT-AIGNAN           175.000000
+CENON                       177.780000
+NIORT                       180.000000
+LORIENT                     181.250000
+FECAMP                      183.330000
+AUBERGENVILLE               200.000000
+AUCH                        200.000000
+AVRANCHES                   200.000000
+BALMA                       200.000000
+BETHENY                     200.000000
+BOIS GUILLAUME              200.000000
+BOLQUERE                    200.000000
+CANCALE                     200.000000
+CASTELNAU LE LEZ            200.000000
+CASTELNAUDARY               200.000000
+CHATEAUBRIANT               200.000000
+CHATEAUDUN                  200.000000
+CORRENCON-EN-VERCORS        200.000000
+COUBRON                     200.000000
+COYE LA FORET               200.000000
+CREGY-LES-MEAUX             200.000000
+DOUSSARD                    200.000000
+EYBENS                      200.000000
+GAP                         200.000000
+GENAS                       200.000000
+GIVET                       200.000000
+HALLUIN                     200.000000
+LA CHAUSSEE SAINT VICTOR    200.000000
+LA SALLE                    200.000000
+LA-VOULTE-SUR-RHONE         200.000000
+LANGON                      200.000000
+LANTON                      200.000000
+LE PIN                      200.000000
+LORGUES                     200.000000
+LOUVRES                     200.000000
+LYON 6EME                   200.000000
+MONTAIGU-VENDEE             200.000000
+MONTEUX                     200.000000
+MUREAUX (LES)               200.000000
+PERTUIS                     200.000000
+PUGET-SUR-ARGENS            200.000000
+RAISMES                     200.000000
+REAU                        200.000000
+ROMORANTIN-LANTHENAY        200.000000
+RUELLE-SUR-TOUVRE           200.000000
+SAINT CYR AU MONT D OR      200.000000
+SAINT LAURENT MEDOC         200.000000
+SAINT-JEAN-LE-BLANC         200.000000
+SAINT-MARTIN-VESUBIE        200.000000
+SAINT-QUAY-PORTRIEUX        200.000000
+SAINTE LUCE                 200.000000
+SARRIANS                    200.000000
+SENS                        200.000000
+SERIGNAN                    200.000000
+ST ORENS DE GAMEVILLE       200.000000
+TIGERY                      200.000000
+TOUL                        200.000000
+TREILLIERES                 200.000000
+VALMEINIER                  200.000000
+VILLENNES-SUR-SEINE         200.000000
+WITRY-LES-REIMS             200.000000
+OULLINS                     220.000000
+BEZIERS                     225.000000
+LE PRADET                   225.000000
+DINAN                       228.570000
+DUCOS                       233.330000
+REIMS                       240.630000
+APT                         250.000000
+LA PLAGNE TARENTAISE        250.000000
+MENDE                       250.000000
+TANINGES                    250.000000
+ST FONS                     266.670000
+VALENCIENNES                275.000000
+CAVALAIRE-SUR-MER           300.000000
+CHANTELOUP-LES-VIGNES       300.000000
+CONCARNEAU                  300.000000
+CREST                       300.000000
+GRAND QUEVILLY (LE)         300.000000
+JANZE                       300.000000
+LA TESTE-DE-BUCH            300.000000
+LE PLESSIS PATE             300.000000
+LEVENS                      300.000000
+LEZIGNAN-CORBIERES          300.000000
+PERENCHIES                  300.000000
+PIERRELATTE                 300.000000
+PLERIN                      300.000000
+SAINT-MARTIN-LE-VINOUX      300.000000
+VITRE                       300.000000
+MEYZIEU                     333.330000
+ABBEVILLE                   350.000000
+CALAIS                      350.000000
+SAINT-ANDRE-DE-CUBZAC       350.000000
+MONTELIMAR                  375.000000
+AIRE-SUR-L'ADOUR            400.000000
+CHAPELLE-SUR-ERDRE (LA)     400.000000
+CHAUMONT                    400.000000
+FLEURY-MEROGIS              400.000000
+LE CREUSOT                  400.000000
+LE PALAIS                   400.000000
+LE PLESSIS BELLEVILLE       400.000000
+LES HOUCHES                 400.000000
+NOGENT-LE-ROI               400.000000
+ORCIERES                    400.000000
+PIERRE BENITE               400.000000
+PONT ST ESPRIT              400.000000
+SAINT CYR SUR LOIRE         400.000000
+VERNON                      400.000000
+VILLENEUVE SUR LOT          400.000000
+VILLENOY                    400.000000
+VOREPPE                     400.000000
+BELLEVILLE-EN-BEAUJOLAIS    500.000000
+VETRAZ-MONTHOUX             500.000000
+LAMBALLE-ARMOR              600.000000
+LAMORLAYE                   600.000000
+LONS                        600.000000
+MACON                       600.000000
+ORANGE                      600.000000
+PERRAY-EN-YVELINES (LE)     600.000000
+RETHEL                      600.000000
+LYON 3EME                   609.090000
+LUCE                        700.000000
+ROUEN                       716.670000
+CHALON-SUR-SAONE            766.670000
+LYON 7EME                   800.000000
+RONCHIN                     800.000000
+LYON 8EME                   960.000000
+LE DEVOLUY                 1000.000000
+MORLAIX                    1000.000000
+L ISLE SUR LA SORGUE       1200.000000
+CAVAILLON                  1600.000000
+PAU                        2500.000000
+
+
+=======================================================================================
+--8. Différence en pourcentage du prix au mètre carré entre un
+--appartement de 2 pièces et un appartement de 3 pièces.
+
+DIFF_POURC_PRIX_M_2
+-------------------
+         -12.400000
+
+
+=======================================================================================
+--9. Donnez les moyennes de valeurs foncières pour le top 20 des
+--communes.
+
+COMMUNE                  MOYENNE              
+------------------------ ---------------------
+GARRIGUES SAINTE EULALIE 1683000.0000000000000
+LES PORTES-EN-RE         1400000.0000000000000
+VERNEUIL EN HALATTE      1280000.0000000000000
+PARIS 07                 1251288.4000000000000
+PARIS 16                 1028243.6900000000000
+PARIS 01                 1013503.9100000000000
+PARIS 08                 1010536.0700000000000
+PARIS 06                 1005955.5700000000000
+SAINT-JEAN-CAP-FERRAT     968750.0000000000000
+VAL-D ISERE               880000.0000000000000
+NEUILLY-SUR-SEINE         813661.0700000000000
+PARIS 17                  720622.9000000000000
+BARBIZON                  713500.0000000000000
+PARIS 03                  655953.7800000000000
+EZE                       655000.0000000000000
+PARIS 04                  650908.7600000000000
+RAMATUELLE                633000.0000000000000
+CRESPIERES                632065.2000000000000
+GARCHES                   615348.5700000000000
+DUINGT                    610800.0000000000000
+
+
